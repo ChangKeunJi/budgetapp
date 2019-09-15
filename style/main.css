@@ -1,0 +1,190 @@
+* {
+  color: #faec31;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #2b2a53;
+}
+
+body .budget {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  height: 100vh;
+  padding: 0 2rem;
+}
+
+body .budget .info-and-form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 2fr;
+      grid-template-rows: 1fr 2fr;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.info .display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  border: 1px solid #faec31;
+  border-radius: 1rem;
+  margin: 0 1rem;
+  padding: 2.5rem 0;
+}
+
+.info .display span {
+  font-size: 2rem;
+}
+
+.form-bottom {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 2fr;
+      grid-template-rows: 1fr 2fr;
+}
+
+.form-bottom .budget-form {
+  padding: 1rem 10rem;
+  margin: 1rem;
+  text-align: center;
+  padding-top: 1rem;
+  border: 1px solid #faec31;
+  border-radius: 1rem;
+}
+
+.form-bottom .budget-form button {
+  color: #faec31;
+  border-color: #faec31;
+  width: 40%;
+  height: 70%;
+}
+
+.expense-form {
+  display: 100%;
+}
+
+.expense-form form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+}
+
+.expense-form form .expense-btn {
+  margin: 1rem 1rem;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "rent groceries dining" "bills smoking maintenance";
+  grid-gap: 1rem;
+}
+
+.expense-form form .expense-btn #rent {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: rent;
+}
+
+.expense-form form .expense-btn #groceries {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: groceries;
+}
+
+.expense-form form .expense-btn #dining {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: dining;
+}
+
+.expense-form form .expense-btn #bills {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: bills;
+}
+
+.expense-form form .expense-btn #smoking {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: smoking;
+}
+
+.expense-form form .expense-btn #maintenance {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: maintenance;
+}
+
+.expense-form form .expense-btn .btn.active {
+  background: #ffc107;
+  color: #000;
+}
+
+.expense-form form .form-group {
+  padding: 1rem 10rem;
+  margin: 1rem;
+  text-align: center;
+  padding-top: 1rem;
+  border: 1px solid #faec31;
+  border-radius: 1rem;
+}
+
+.expense-form form .form-group button {
+  color: #faec31;
+  border-color: #faec31;
+  width: 40%;
+  height: 70%;
+  margin-top: 1rem;
+}
+
+.table {
+  text-align: center;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+.table button {
+  width: 150px;
+  height: 50px;
+  text-transform: uppercase;
+}
+
+.table .fa-trash-alt {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1150px) {
+  body .budget {
+    display: inline;
+  }
+}
+/*# sourceMappingURL=main.css.map */
