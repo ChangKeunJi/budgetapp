@@ -128,7 +128,7 @@ budgetForm.addEventListener("submit", e => {
   let id = "gc3wbyd5ztmFQ2PpJTMl";
   let budgetData = db.collection("budget").doc(id);
 
-  if (value <= 0 || value === null) {
+  if (value < 0 || value === null) {
     alert("Wrong Input");
   } else {
     budgetData.update({
