@@ -10,6 +10,9 @@ Categories in this app are all customized for me.
 
 2. Able to choose one of categories for better user experience.
 
+## This is another Vanilla JS version of this app.
+ https://github.com/ChangKeunJi/budget
+
 ## Screenshots
 
 ![2019-10-11 (2)](https://user-images.githubusercontent.com/46767604/66575986-a7a06400-ebc2-11e9-8586-52d2a2940ea3.png)
