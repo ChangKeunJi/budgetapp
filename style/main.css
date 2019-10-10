@@ -64,6 +64,10 @@ body .budget .info-and-form {
   font-size: 2rem;
 }
 
+.info .display span.display-balance-value {
+  color: lightgreen;
+}
+
 .form-bottom {
   display: -ms-grid;
   display: grid;

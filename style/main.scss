@@ -38,8 +38,12 @@ body {
     border-radius: 1rem;
     margin: 0 1rem;
     padding: 2.5rem 0;
+
     span {
       font-size: 2rem;
+      &.display-balance-value {
+        color: lightgreen;
+      }
     }
   }
 }
